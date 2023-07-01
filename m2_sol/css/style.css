@@ -1,0 +1,51 @@
+* {
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ h1 {
+    text-align: center;
+}
+
+.s1 {
+    background-color: lightcoral;
+    margin-right: 1em;
+    border: 1px solid black;
+}
+.s2 {
+    background-color: lightseagreen;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+.s3 {
+    background-color: bisque;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+div > h2 {
+    float: right;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0;
+    background-color: aquamarine;
+}
+div > p {
+    padding: 40px 15px 15px 15px;
+    font-size: 3rem;
+}
+/* For tablet screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cs2 {
+        display: flex;
+    }
+    
+}
+/* For laptop screens */
+@media screen and (min-width: 992px) {
+    .cs2 {
+        display: flex;
+    }
+    .all {
+        display: inline-flex;
+    }
+}
+
