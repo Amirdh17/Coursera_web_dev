@@ -1,0 +1,38 @@
+body {
+    background-color: dodgerblue;
+}
+/* header start */
+body nav div{
+    background-color: blue;
+}
+#header {
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.navbar-default .navbar-toggle {
+    border: 3px solid dodgerblue;
+    background-color: dodgerblue;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: lightblue;
+}
+#myNavbar ul li a {
+    color: white;
+}
+#myNavbar ul li a:hover, #myNavbar ul li a:focus {
+    background-color: dodgerblue;
+    color: white;
+}
+/* header end */
+
+/* body start */
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: lightblue;
+    width: 90%;
+    position:relative;
+    left:5%;
+}
+/* body end */
